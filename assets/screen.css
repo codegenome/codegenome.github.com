@@ -6,10 +6,18 @@ Main font is Minion Pro set by Typekit.
 
 /* Browser */
 
-body { 
+body {
   padding: 30px;
   padding-top: 0px;
   text-align: center;
+  background-color: #fff;
+  color: #222;
+}
+
+body#privacy {
+  padding: 30px;
+  padding-top: 0px;
+  text-align: left;
   background-color: #fff;
   color: #222;
 }
@@ -56,7 +64,7 @@ h1 {
   line-height: 1.0em;
   margin-bottom: 20px;
   letter-spacing: -2px;
-	color: #232323;
+  color: #232323;
 }
 
 h2 {
@@ -69,13 +77,24 @@ h2 {
   letter-spacing: -1px;
 }
 
+body#privacy h2 {
+  color: #232323;
+  margin: 30px 0;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.1em;
+  letter-spacing: -1px;
+}
+
+
 h6 {
   margin: 5px 0 10px;
   font-size: 14px;
   color: #cc0000;
 }
 
- 
+
 
 /*----------------------------------------------------
 INDEX
@@ -95,7 +114,7 @@ body.index div.box-container {
   margin-bottom: 40px;
 }
 
- 
+
 
 body.index a.box {
   width: 160px;
@@ -188,7 +207,7 @@ body.index a.box div.product h1 {
   color: #222;
   margin: 10px 0 15px 0;
   font-size: 46px;
-	letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 body.index a.box div.product h1 span {
@@ -198,9 +217,9 @@ body.index a.box div.product h1 span {
 
 body.index a.box div.product p { font-size: 15px; }
 /*body.index a.box div.product img.arrow { margin-top: -10px; }*/
- 
 
- 
+
+
 
 body.index a.box.hover div.product { display: block; }
 
@@ -263,9 +282,9 @@ body.index div.column div.address {
 body.index div.column div.address.top { margin-top: 0; }
 body.index div.column div.address.bottom { margin-bottom: 0; }
 
-body.index div.column div.address h3 { float: left; font-size: 58px; font-weight: 500; line-height: normal; 
-/*	margin: -10px 15px 0 0; */
-	color: #ccc; }
+body.index div.column div.address h3 { float: left; font-size: 58px; font-weight: 500; line-height: normal;
+/*  margin: -10px 15px 0 0; */
+  color: #ccc; }
 
 body.index div.column div.address h4 {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
@@ -319,9 +338,9 @@ body.index div.rework div.read p {
 }
 
 div.contact-us{
-	
-	width: 600px;
-	text-align :center;
+
+  width: 600px;
+  text-align :center;
 /*  float:center;*/
 margin: auto;
    margin-top: 70px;
@@ -357,7 +376,7 @@ body.about div.timelinecontents {
   margin: 30px 0 15px 0;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
   font-weight: normal;
-  font-size: 11px; 
+  font-size: 11px;
   overflow: hidden;
 }
 
@@ -447,7 +466,7 @@ body.about table.team td.photo {
   padding: 0;
 }
 
-  
+
 div.footer p {
   font-size: 10px;
   color: #999;
@@ -455,4 +474,3 @@ div.footer p {
   margin-top: 50px;
 }
 
- 
