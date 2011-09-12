@@ -1,0 +1,688 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+	<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>PortableStudio Clean &amp; Simple Template Documentation</title>
+
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+			margin-bottom:25px;
+		}
+		.box p {
+			margin-bottom:10px;
+		}
+		.center_img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		.required {
+			color: #F00;
+			font-size: 12px;
+			font-weight: bold;	
+		}
+	</style>
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+	</head>
+
+	<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;PortableStudio Clean &amp; Simple Template&rdquo; Documentation by &ldquo;trendyWebStar&rdquo; v1.0</h3>
+		<hr>
+		<h1 class="center">&ldquo;PortableStudio Clean &amp; Simple Template Documentation&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top"> <strong> Created: 16/05/2011<br>
+					By: trendyWebStar<br>
+					Email: <a href="mailto:themes@trendywebstar.pl">themes@trendywebstar.com</a> </strong> </p>
+			</div>
+			<!-- end div .span-6 -->
+			
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/trendyWebStar" target="_blank">here</a>.</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+		
+		<hr>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol>
+			<li><a href="#1">Template overview</a></li>
+			<li><a href="#2">Getting Started</a></li>
+            <li><a href="#3">Working With Sliders</a></li>
+            <li><a href="#4">Portfolio</a></li>
+            <li><a href="#5">Blog</a></li>
+            <li><a href="#6">CSS in the template</a></li>
+            <li><a href="#7">JavaScript in the template</a></li>
+            <li><a href="#8">PHP in the template</a></li>
+            <li><a href="#9">Psd files</a></li>
+            <li><a href="#10">Sources, credits and helpfull links</a></li>
+		</ol>
+    <hr>
+		<h2 id="1"><strong>Template overview</strong> - <a href="#toc">top</a></h2>
+		<p>Hi, firstly I would like to thank you for purchasing my template. In this section I`ll briefly introduce PortableStudio features. So lets start.</p>
+		<p><strong>Template features:</strong></p>
+		<ul>
+		  <li>15 Valid HTML5 Pages</li>
+		  <li>3 homepage Styles to choose from</li>  
+		  <li>16 background Version</li>
+		  <li>Unlimited background Colors</li>
+		  <li>Tabs</li>
+		  <li>Filterable Portfolio</li>
+		  <li>Working Contact form (send.php)</li>
+		  <li>Working Google Maps</li>
+		  <li>JQuery Dropdown menu</li>
+		  <li>Many more jQuery Features</li>
+		   <li>1 PSD File</li>
+		  
+	  </ul>
+		
+	  <h4>PortableStudio Works in:</h4>
+	  <ul>
+		<li>Internet Explorer 7</li>
+		<li>Internet Explorer 8</li>
+		<li>Internet Explorer 9</li>
+		<li>Firefox 2</li>
+		<li>Firefox 3</li>
+		<li>Firefox 3.5</li>
+		<li>Firefox 3.6</li>
+		<li>Firefox 4</li>
+		<li>Safari 4</li>
+		<li>Safari 5</li>
+		<li>Opera</li>
+		<li>Chrome 4</li>
+		<li>Chrome 5</li>
+		<li>Chrome 6</li>
+		<li>Chrome 7+</li>
+	  </ul>
+		<p>To make some order in this documentation I`ll start with all static elements on the template and then I`ll cover other problematic elements.</p>
+        <hr>
+	<h2 id="2"><strong>Getting Started</strong> - <a href="#toc">top</a></h2>
+		<p>Ahh, So you ready or not here it comes.PortableStudio is a clean & simple template, written in valid HTML 5, and powered by lots of cool JQuery and CSS 3 Features, but you already know that.What you don't know is how to use this template to make the best out of it, and that's why there's this awesome  help file to get you started  on your  very own PortableStudio....so let's keep going!</p>
+		
+		<h3>Installation</h3>
+		<p>PortableStudio is HTML template so there's no really  &quot;installation&quot; required just unzip the main file you've downloaded from themeforest and  after unziping you have your all template ready to be used.Just enter the  &quot;HTML&quot;  folder and there you will see two folders named &quot;light&quot; and &quot;dark&quot;, choose which one you'll be working with and we're ready to move on.</p>
+		
+		<h3>Setting Up The Grid</h3>
+		<p>Before starting to work deeper with PortableStudio, you'll need to know how to use template's grid, it's simple and easy to use.PortableStudio is being build using  one of the most popular grid, the 960 grid, which means your site container is 960px wide.To make it work without problem you be using columns for everything starting from sliders , portfolio , blog and more.</p>
+	
+		
+		<h3>Setting Up the Homepage</h3>
+		<p>PortableStudio template comes with 3 homepage styles.Every style has it's own  slider or different look.The default homepage named &quot;index.html&quot; comes with the  simple slider and a small  content box on the left.Other Homepages are named &quot;homepage-nivo.html&quot;, &quot;homepage-simple.html&quot;.</p>
+		
+        <h4><strong><br><br>Changing Logo</strong></h4>
+        <p>This code below stands for the logo section.</p>
+        
+		<pre class="brush: html;" id="front-html-structure-pre">
+		&lt;a id=&quot;logo&quot; title=&quot;Homepage&quot; href=&quot;index.html&quot;&gt;
+		&lt;img src=&quot;images/logo.png&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;60&quot;/&gt;&lt;/a&gt;
+		</pre>
+		
+        <p>here is the CSS code for the Logo:</p>
+		<pre class="brush: css">
+		a#logo {
+			display:block;
+			float:left;
+			width:250px;
+			height:60px;
+				}
+
+</pre>
+        <hr>
+        
+		<h4><strong><br><br>Working With Navigation</strong></h4>
+		<p>In this template I have used some jQuery improved dropdown menu but the menu itself is easy to edit. Its structure base on a nested unorederd lists structure. Your code should look like the following.</p>
+		<pre class="brush: html">
+		 			&lt;div id=&quot;main_navigation&quot; class=&quot;main-menu &quot;&gt; 
+				&lt;!--  MAIN  NAVIGATION--&gt; 
+				&lt;ul&gt; 
+					&lt;li&gt;&lt;a href=&quot;index.html&quot; title=&quot;Home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt; 
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Features&lt;/a&gt; 
+					&lt;ul&gt; 
+						&lt;li&gt;&lt;a href=&quot;homepage-nivo.html&quot;&gt;Nivo Slider&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;homepage-simple.html&quot;&gt;Simple Homepage&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Simple Slider(Default)&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;career.html&quot;&gt;Menu Second Level&lt;/a&gt; 
+						&lt;ul&gt; 
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Just&lt;/a&gt;&lt;/li&gt; 
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Showing it..&lt;/a&gt;&lt;/li&gt; 
+							&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Third Level Menu&lt;/a&gt; 
+							&lt;ul&gt; 
+								&lt;li&gt;&lt;a href=&quot;#&quot;&gt;This is Third Level&lt;/a&gt;&lt;/li&gt; 
+								&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Showing it..&lt;/a&gt;&lt;/li&gt; 
+								&lt;li&gt;&lt;a href=&quot;#&quot;&gt;It's easy to use&lt;/a&gt;&lt;/li&gt; 
+							&lt;/ul&gt; 
+							&lt;/li&gt; 
+						&lt;/ul&gt; 
+						&lt;/li&gt; 
+					&lt;/ul&gt; 
+					&lt;/li&gt; 
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Pages&lt;/a&gt; 
+					&lt;ul&gt; 
+						&lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;services.html&quot;&gt;Our Services&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;blog-post.html&quot;&gt;Blog Post&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;typography.html&quot;&gt;Typography &amp; Features&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;columns.html&quot;&gt;Template Columns&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;fullwidth.html&quot;&gt;Fullwidth&lt;/a&gt;&lt;/li&gt; 
+						
+					&lt;/ul&gt; 
+					&lt;/li&gt; 
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Portfolio&lt;/a&gt; 
+					&lt;ul&gt; 
+						&lt;li&gt;&lt;a href=&quot;portfolio-two-columns.html&quot;&gt;Two Columns Portfolio&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;portfolio-three-columns.html&quot;&gt;Three Columns Portfolio&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;portfolio-four-columns.html&quot;&gt;Four Columns Portfolio&lt;/a&gt;&lt;/li&gt; 
+						&lt;li&gt;&lt;a href=&quot;portfolio-details.html&quot;&gt;Portfolio Details&lt;/a&gt;&lt;/li&gt; 
+					&lt;/ul&gt; 
+					&lt;/li&gt; 
+					&lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt; 
+					&lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact Us&lt;/a&gt;&lt;/li&gt; 
+				&lt;/ul&gt; 
+			&lt;/div&gt; 
+
+				</pre>
+
+		<hr>
+	 <p>here is the CSS code for the Main Navigation:</p>
+		<pre class="brush: css">
+				/*--------------------------------MAIN NAVIGATION---------------------------------------------*/
+		#main_navigation {
+			top:10px;
+			font-size:11px;
+			height:50px;
+			float:right;
+		}
+		.main-menu {
+			position:relative;
+			z-index:22;
+			font-family:'Crimson Text',arial,serif;
+		}
+		.main-menu ul {
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+		.main-menu ul li {
+			position:relative;
+			display:inline;
+			float:left;
+			font-size:14px;
+		}
+		.main-menu ul li a,.main-menu ul li a:link,.main-menu ul li a:visited {
+			line-height:40px;
+			color:#363636;
+		}
+		.main-menu ul li a:hover {
+			color:#e64135;
+		}
+		.main-menu ul li a {
+			display:block;
+			text-decoration:none;
+			overflow:hidden;
+			padding:0px 15px;
+		}
+		* html .main-menu ul li a {
+			display:inline-block;
+		}
+		.main-menu ul li ul {
+			position:absolute;
+			left:0px;
+			display:block;
+			visibility:hidden;
+		}
+		.main-menu ul li ul li {
+			display:list-item;
+			float:none;
+		}
+		.main-menu ul li ul li a {
+			width:160px;
+			padding:5px 10px;
+		}
+		.main-menu ul ul {
+			background:#FFF;
+			border:1px solid #e0e0e0;
+			-moz-box-shadow:0px 3px 3px rgba(0,0,0,0.1);
+			-webkit-box-shadow:0px 3px 3px rgba(0,0,0,0.1);
+			box-shadow:0px 3px 3px rgba(0,0,0,0.1);
+		}
+		.main-menu ul ul li a,.main-menu ul ul li a:link,.main-menu ul ul li a:visited {
+			height:100%;
+			line-height:20px;
+			background:transparent !important;
+			border-bottom:dotted 1px #e1e1e1;
+			padding:5px 10px!important;
+		}
+		.main-menuz ul li ul li a:hover,.main-menu ul ul li a:hover {
+			margin:0 0px;
+			color:#e64135;
+		}
+		.main-menuz ul ul li ul li a:hover,.main-menu ul ul ul li a:hover {
+			width:155px;
+		}
+
+</pre>
+		<hr>
+		<h4 id="3"><strong>Latest Tweets HTML Configuration</strong> - <a href="#toc">top</a></h4>
+		<p>So maybe now you're wondering how does the twitter feed works?It's pretty easy.What you need to know now is that wherever you want to put those lates tweets just use this pieace of HTML, later I will explain the JavaScript that needs to be optimized</p>
+		
+		<pre class="brush: html">
+			
+		&lt;div class=&quot;one-fourth&quot;&gt;&lt;!-- COLUMN STARTS--&gt; 
+			&lt;h3&gt;Latest Tweets&lt;/h3&gt; 
+			&lt;div class=&quot;tweet&quot;&gt; 
+		&lt;/div&gt; 
+		
+		</pre>
+		
+		<p>So by now you should know the basics of the template look.Once you figure it out how does the homepage works, everything else is pretty much the same.</p>
+		<hr>		
+		
+		<h2 id="3"><strong>Working With Sliders</strong> - <a href="#toc">top</a></h2>
+		<p>PortableStudio template comes with 3 slilders and 1 static grid look.Each slider is really easy to use and to customize.</p>
+
+	<br/>
+	
+	<h3>Default Slider with the Content on the left</h3>
+	<img src="assets/images/default-slider.jpg" alt=" " />
+	<pre class="brush: html">
+		&lt;div class=&quot;one&quot;&gt;
+		&lt;!-- COLUMNS CONTAINER STARTS--&gt;
+		&lt;div class=&quot;one-third&quot;&gt;&lt;!--COLUMN STARTS --&gt;
+		&lt;div class=&quot;slide-content&quot;&gt;
+			&lt;h3&gt;We are PortableStudio, a Small but Powerfull Web Desgin Studio.&lt;/h3&gt;
+		&lt;/div&gt;
+			&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam feugiat nunc ut nibh interdum tempus. 
+			Donec at lorem eget sapien iaculis porttitor id quis ligula feugiat nunc ut nibh justo eget elit aliquet interdum tempus.&lt;/p&gt;
+		&lt;p&gt;Donec at lorem eget sapien iaculis porttitor id quis ligula feugiat nunc ut nibh justo eget elit aliquet interdum tempus.&lt;/p&gt;
+		&lt;a href=&quot;#&quot; class=&quot;blue&quot;&gt;KEEP READING&lt;/a&gt;
+		&lt;/div&gt;&lt;!-- COLUMN ENDS--&gt;
+		&lt;div class=&quot;slideshow&quot;&gt;
+			&lt;div id=&quot;slider&quot; class=&quot;clearfix&quot;&gt; 
+				&lt;div class=&quot;slides_container small-slider&quot;&gt;
+					&lt;!-- SLIDER STARTS--&gt;
+					&lt;!-- SLIDER CONTENT STARTS--&gt;
+					&lt;img src=&quot;images/slideshow/slide-small-01.jpg&quot; alt=&quot; &quot; width=&quot;630&quot; height=&quot;350&quot;/&gt;
+					&lt;img src=&quot;images/slideshow/slide-small-02.jpg&quot; alt=&quot; &quot; width=&quot;630&quot; height=&quot;350&quot;/&gt;
+					&lt;img src=&quot;images/slideshow/slide-small-03.jpg&quot; alt=&quot; &quot; width=&quot;630&quot; height=&quot;350&quot;/&gt;
+					&lt;img src=&quot;images/slideshow/slide-small-04.jpg&quot; alt=&quot; &quot; width=&quot;630&quot; height=&quot;350&quot;/&gt;
+				&lt;/div&gt;&lt;!-- SLIDESHOW CONTAINER ENDS--&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;!-- SLIDER ENDS--&gt;	&lt;!-- SLIDESHOW ENDS--&gt;
+		&lt;!-- SLIDESHOW ENDS--&gt;
+	&lt;/div&gt;
+	</pre>
+	<br/>
+	<h3>Simple Slider</h3>
+	<img src="assets/images/simple-slider.jpg" alt=" " />
+	<pre class="brush: html">
+	&lt;div class=&quot;slideshow&quot;&gt;
+	&lt;div id=&quot;slider&quot; &gt; 
+		&lt;div class=&quot;slides_container big-slider&quot;&gt;
+		&lt;!-- SLIDER STARTS--&gt;		
+		&lt;!-- SLIDER CONTENT STARTS--&gt;
+		&lt;img src=&quot;images/slideshow/slide-01.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot;  /&gt;
+		&lt;img src=&quot;images/slideshow/slide-02.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot;  /&gt;
+		&lt;img src=&quot;images/slideshow/slide-03.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot;  /&gt;
+		&lt;img src=&quot;images/slideshow/slide-04.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot;  /&gt;   				
+		&lt;/div&gt;&lt;!-- SLIDESHOW CONTAINER ENDS--&gt;				
+	&lt;/div&gt;
+&lt;/div&gt;
+	</pre>
+	<br/>
+	<h3>Nivo Slider</h3>
+	<img src="assets/images/nivo-slider.jpg" alt=" " />
+	<pre class="brush: html">
+	&lt;div class=&quot;slideshow&quot;&gt;
+	&lt;div id=&quot;slider&quot; &gt;
+	&lt;!-- SLIDER STARTS--&gt;
+	&lt;div id=&quot;nivo-wrapper&quot;&gt;&lt;!--  NIVO WRAPPER--&gt;
+		&lt;div id=&quot;slider-nivo&quot; class=&quot;nivoSlider&quot;&gt;&lt;!--  NIVO SLIDER--&gt;
+			&lt;img src=&quot;images/slideshow/slide-01.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot; title=&quot;This is an example of a caption&quot; /&gt;
+			&lt;img src=&quot;images/slideshow/slide-02.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot; title=&quot;This is an example of a caption&quot; /&gt;
+			&lt;img src=&quot;images/slideshow/slide-03.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot; title=&quot;This is an example of a caption&quot; /&gt;
+			&lt;img src=&quot;images/slideshow/slide-04.jpg&quot; width=&quot;960&quot; height=&quot;350&quot; alt=&quot;&quot; title=&quot;This is an example of a caption&quot; /&gt;   
+		&lt;/div&gt;&lt;!--  NIVO SLIDER--&gt;
+	&lt;/div&gt;&lt;!--  NIVO WRAPPER ENDS --&gt;	
+	&lt;/div&gt;&lt;!-- SLIDER ENDS--&gt;
+&lt;/div&gt;&lt;!-- SLIDESHOW ENDS--&gt;
+	
+	</pre>
+	<br/>
+	
+	
+	
+	<h2 id="4"><strong>Portfolio</strong> - <a href="#toc">top</a></h2>
+	
+	<p>You can choose from two column,three columns and four columns portfolio.</p>
+	<br/>
+	
+	<h3>Four Columns Portfolio</h3>
+	<img src="assets/images/four-portfolio.jpg" alt=" " />
+	<pre class="brush: html">
+	&lt;div class=&quot;portfolio-grid&quot;&gt;
+&lt;ul&gt;		
+		&lt;li class=&quot;one-fourth web&quot;&gt;
+			&lt;p&gt;
+			&lt;a href=&quot;images/slideshow/slide-01.jpg&quot; class=&quot;portfolio-item-preview&quot;
+			rel=&quot;prettyPhoto&quot;&gt;&lt;img src=&quot;images/portfolio/portfolio-img-01.jpg&quot; alt=&quot; &quot; width=&quot;220&quot; height=&quot;155&quot; class=&quot;portfolio-img&quot;/&gt;&lt;/a&gt;
+			&lt;/p&gt;
+			&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;WordPress Design&lt;/a&gt;&lt;/h4&gt;
+			&lt;p&gt;
+				Lorem ipsum dolor sit amet, tollite fit manibus individuationis omnibus civitas ad quia.
+			&lt;/p&gt;
+		&lt;/li&gt;
+			
+
+&lt;/ul&gt;						
+&lt;/div&gt;
+	
+	</pre>
+	
+	<h3>Filter List</h3>
+	<pre class="brush: html">
+	&lt;ul id=&quot;filterable&quot;&gt;
+	&lt;li class=&quot;first&quot;&gt;&lt;h5&gt;Filter by&lt;/h5&gt;&lt;/li&gt;	
+	&lt;li class=&quot;current&quot;&gt;&lt;a class=&quot;all&quot; href=&quot;#all&quot;&gt;All&lt;/a&gt;&lt;/li&gt;			
+	&lt;li&gt;&lt;a class=&quot;web&quot; href=&quot;#web&quot;&gt;Web design&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a class=&quot;logo&quot; href=&quot;#logo&quot;&gt;Logo&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a class=&quot;branding&quot; href=&quot;#branding&quot;&gt;Branding&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a class=&quot;video&quot; href=&quot;#video&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;!--END filtering-nav--&gt;
+	
+	</pre>
+	<br/>
+	
+	<hr>
+	<h2 id="5"><strong>Blog</strong> - <a href="#toc">top</a></h2>	
+	<p>Adventrue comes with 1 Blog  page and 1 page as single post.</p>
+	<h3>Blog List Style I</h3>
+	
+	<pre class="brush: html">
+		&lt;h3&gt;&lt;a href=&quot;blog-post.html&quot; class=&quot;orange&quot;&gt;Building a Custom Shopping Cart from Scratch&lt;/a&gt;&lt;/h3&gt;&lt;!--POST TITLE--&gt;
+		&lt;p&gt;&lt;img src=&quot;images/portfolio/blog-1.jpg&quot; alt=&quot; &quot; width=&quot;711&quot; height=&quot;220&quot; /&gt;&lt;/p&gt;&lt;!--POST IMAGE--&gt;
+		&lt;p&gt;Posted by:  &lt;a href=&quot;#&quot;&gt;John Smith&lt;/a&gt; on April 14, 2011 | &lt;a href=&quot;#&quot;&gt;12 Comments&lt;/a&gt;&lt;/p&gt;&lt;!--POST DETAILS--&gt;
+		&lt;!--POST INTRO--&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet, verenam operibus furiam conclusoque sponte profundo. 
+		Conservus mihi esse haec aliquam inlido laetare quod eam ad per. Antiochia videns quia quod non ait est&lt;/p&gt;
+		&lt;a href=&quot;#&quot; class=&quot;medium-link orange&quot;&gt;Read This Article&lt;/a&gt;&lt;!--POST LINK--&gt;
+		&lt;div class=&quot;horizontal-line&quot;&gt;&lt;/div&gt;
+	</pre>
+	<br/>
+	<hr>
+	<h2 id="6"><strong>CSS in the Template</strong> - <a href="#toc">top</a></h2>	
+	
+	<pre class="brush: html">
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;./css/style.css&quot; type=&quot;text/css&quot; media=&quot;screen&quot;/&gt;
+	</pre>
+	<br/>
+	<p>Other than than all other CSS files are located in the same folder.</p>
+	<pre class="brush: html">
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;./css/prettyPhoto.css&quot; type=&quot;text/css&quot; media=&quot;screen&quot;/&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;./css/nivo-slider.css&quot; type=&quot;text/css&quot; media=&quot;screen&quot;/&gt;
+	</pre>
+	<h4>Style Switcher Files</h4>
+	<pre class="brush: html">
+	&lt;!--SWITCHER FILES--&gt;
+	&lt;link href="css/colorpicker.css" rel="stylesheet&quot; type=&quot;text/css&quot; /&gt;
+	&lt;link href=&quot;css/style-switcher.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/colorpicker.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.cookie.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/switcher.js&quot;&gt;&lt;/script&gt;
+	</pre>
+	<p>Google fonts are takne from the google website</p>
+	<pre class="brush: html">
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Shanti&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Mako&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;http://fonts.googleapis.com/css?family=Crimson+Text:regular,regularitalic,600,600italic,bold,bolditalic&quot; type=&quot;text/css&quot;/&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Play&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Terminal+Dosis+Light&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Pacifico&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Crushed&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Puritan&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Oswald&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Anonymous+Pro&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Vollkorn&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Nobile&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Molengo&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;link href=&quot;http://fonts.googleapis.com/css?family=Allerta&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	</pre>
+	<hr>
+	<h2 id="7"><strong>JavaScript in the Template</strong> - <a href="#toc">top</a></h2>	
+	<p>The theme imports various Javascript files such as sliders, twitter feeds, filterable portfolio and more.Below are the most important JavaScript parts for the template.</p>
+	<h3>JQuery</h3>
+	<p>jQuery Library - jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. More information can be found at <a href="http://jquery.com/">Jquery</a></p>
+	<h3>PrettyPhoto</h3>
+	<p>PrettyPhoto - prettyPhoto is a jQuery lightbox clone that support images, videos, flash and iframes. More information can be found at <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a></p>
+	
+	<h3>Nivo Slider</h3>
+	<p>This plugin generates the slideshow for you and supports many customizations.  Select which images are used in the slider and how you want it to appear, and the plugin does the rest.More info at <a href="http://nivo.dev7studios.com/">Nivo Slider</a></p>
+	
+	<h3>Cycle Slider</h3>
+	<p>The jQuery Cycle Plugin is a slideshow plugin that supports many different types of transition effects. It supports pause-on-hover, auto-stop, auto-fit, before/after callbacks, click triggers and much more.More info at <a href="http://jquery.malsup.com/cycle/" >Cycle Slider</a></p>
+	
+	<h3>Slides JS</h3>
+	<p>Slides is a crazy simple slideshow plugin for jQuery. With features like looping, auto play, fade or slide transition effects.More info at <a href="http://slidesjs.com/" >Slides JS</a></p>
+	
+	<h3>Masonry - Portfolio Filterable</h3>
+	<p>Masonry is a layout plugin for jQuery. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, Masonry arranges elements vertically then horizontally according to a grid..More info at <a href="http://desandro.com/resources/jquery-masonry">Filterable</a></p>
+	
+	<h3>Tabify</h3>
+	<p>This Jquery plugin lets you easily create tabbed content. All you need is an ul-element with some li-elements and a couple of related content-divs. The major difference between Tabify and its competitors is its size.More info at <a href="http://www.unwrongest.com/">Tabify</a></p>
+	
+	<h3>javaScript Files included in the template's header</h3>
+	<pre class="brush: html">
+	&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/slides.min.jquery.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/cycle.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/jquery.nivo.slider.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/jquery.tabify.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/jquery.prettyPhoto.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/jquery.tweet.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/scrolltopcontrol.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/custom.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/filterable.js&quot;&gt;&lt;/script&gt; 
+	</pre>
+	<br/>
+	<h3>Custom javaScript in the template</h3>
+	<pre class="brush: html">
+	&lt;script type=&quot;text/javascript&quot; src=&quot;./js/custom.js&quot;&gt;&lt;/script&gt;
+	</pre>
+	
+	<h3>Twitter Feed</h3>
+	<p>So in the begining of this help file i've showed you how to insert a HTML code for twitter feed to work.Now You need a little bit of Jquery to make it wokr just fine .What You'll have to do is to change the username of the twitter feeds, and if you want, the number of twitter feeds that will be displayed.</p>
+	<pre class="brush: javascript">
+	/***************************************************
+		TWITTER FEEDS
+	***************************************************/
+	jQuery.noConflict()(function($){
+	$(document).ready(function() { 
+	$(".tweet").tweet({
+		username: "trendywebstar",
+		join_text: null,
+		avatar_size: null,
+		count: 1,
+		auto_join_text_default: "we said,", 
+		auto_join_text_ed: "we",
+		auto_join_text_ing: "we were",
+		auto_join_text_reply: "we replied to",
+		auto_join_text_url: "we were checking out",
+		loading_text: "loading tweets..."
+		});
+		});
+	});
+	</pre>
+	<p>You'll have to replace  username "trendywebstar" with your own, and you can change the "count:3" wich represents the number of tweets.</p></br>
+	<h3>PrettyPhoto plugin</h3>
+	<p>This is what makes  prettyPhoto plugin work.</p>
+	<pre class="brush: javascript">
+	/***************************************************
+		PRETTY PHOTO
+	***************************************************/
+	jQuery.noConflict()(function($){
+	$(document).ready(function() {  
+
+	$("a[rel^='prettyPhoto']").prettyPhoto({opacity:0.80,default_width:500,default_height:344,theme:'light_rounded',hideflash:false,modal:false});
+
+	});
+	});
+	</pre><br/>
+	<h3>Nivo Slider</h3>
+	<p>To make Nivo Slider Work you'll need some HTML markup and JQuery code.</p>
+	<pre class="brush: javascript">
+	/***************************************************
+		Nivo Slider
+	***************************************************/
+	jQuery.noConflict()(function($){
+		jQuery(document).ready(function($){
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+		});
+	});
+	});
+	</pre>
+	
+	<br/>
+	<h3>Cycle Slider</h3>
+	<p>To make Cycle Slider Work you'll need some JQuery code.</p>
+	<pre class="brush: javascript">
+	/***************************************************
+			CYCLE SLIDER
+	***************************************************/
+	jQuery.noConflict()(function($){
+	$(document).ready(function() {
+		$('#details').cycle({
+			fx:     'fade', 
+			prev:    '#prev',
+			next:    '#next',
+			speedIn:  800, 
+			speedOut: 800, 
+			delay:   7000
+		   
+		});
+		
+		});
+	});
+	</pre>
+	<br/>
+	<h3>Filterable Portfolio </h3>
+	<p>To make portfolio Filterable  you'll need some JQuery code.</p>
+	<pre class="brush: javascript">
+		jQuery(document).ready(function($){
+		var 
+		speed = 700,   // animation speed
+		$wall = $('#portfolio').find('.portfolio-grid ul')
+		;
+
+		$wall.masonry({
+		singleMode: true,
+
+		// only apply masonry layout to visible elements, if you want to apply this to one-third columns, change ".one-fourth:not" to ".one-third:not" below
+		itemSelector: '.one-fourth:not(.invis)',
+		animate: true,
+		animationOptions: {
+		duration: speed,
+		queue: false
+		}
+		});
+
+		$('#filterable a').click(function(){
+		var colorClass = '.' + $(this).attr('class');
+
+		if(colorClass=='.all') {
+		// show all hidden boxes
+		$wall.children('.invis')
+		.toggleClass('invis').fadeIn(speed);
+		} else {  
+		// hide visible boxes 
+		$wall.children().not(colorClass).not('.invis')
+		.toggleClass('invis').fadeOut(speed);
+		// show hidden boxes
+		$wall.children(colorClass+'.invis')
+		.toggleClass('invis').fadeIn(speed);
+		}
+		$wall.masonry();
+
+		 return false;
+		});
+
+		});
+	</pre>
+
+	<hr>
+	
+	
+	<h2 id="8"><strong>PHP in the template</strong> - <a href="#toc">top</a></h2>	
+	<p>This template uses PHP for Contact Form, it's calles "send.php"</p>
+	<pre class="brush: php">
+	<?php
+	if($_POST){
+		$to = 'example@example.com';/*Put Yuur Email Adress Here*/
+		$subject = $_POST['subject'];
+		$from_name = $_POST['name'];
+		$from_email = $_POST['email'];
+		$message = $_POST['message'];
+		$header = "From: $from_name <$from_email>";
+		mail($to, $subject, $message, $header);		
+	}
+?>
+	</pre>
+	<p>You'll need to change  "$to" part. So instead of "example@example.com" replace it with your Email adress, and that's all.</p>
+	
+	<h2 id="9"><strong>PSD files</strong> - <a href="#toc">top</a></h2>	
+	<p>I've Included   PSD file in "PSD" folder.Layers are named, grouped and slices are named, ready to be export in PNG or JPG file if you want to change graphic element.</p>
+		<ol>
+		<li>01_Homepage_Light.psd</li>
+	
+		</ol>	
+<h2 id="10"><strong>Credits and helpfull links</strong> - <a href="#toc">top</a></h2>	
+<h4><strong>Fonts</strong></h4>
+<ul>
+<li><a href="http://www.google.com/webfonts/family?family=Crimson+Text&subset=latin">Crimson Text</a></li>
+<li>Arial (standard)</li>
+<li>Helvetica (standard)</li>
+<li>Other Fonts are taken from google Web Fonts</li>
+</ul>
+<h4><strong>Icons</strong></h4>
+<ul>
+<li><a href="http://www.PremiumPixels.com">Buddy icons PremiumPixels</a></li>
+
+</ul>
+</ul>	<hr>	
+
+		<h2><strong>End of documentation</strong></h2>
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+		<p class="append-bottom alt large"><strong>trendyWebStar</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+		
+
+	</div>
+	<!-- end div .container --> 
+
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+</body>
+</html>
